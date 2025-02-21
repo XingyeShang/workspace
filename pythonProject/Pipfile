@@ -6,8 +6,10 @@ name = "pypi"
 [packages]
 django = "==2.2.3"
 markdown = "*"
+sqlparse = "*"
+gunicorn = "*"
 
 [dev-packages]
 
 [requires]
-python_version = "3.12"
+python_version = "*"
